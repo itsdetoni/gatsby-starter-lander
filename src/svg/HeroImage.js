@@ -1,7 +1,7 @@
 import React from 'react';
 
-const HeroImage = props => (
-  <svg data-name="Layer 1" viewBox="0 0 394.1 345.82" {...props}>
+const HeroImage = () => (
+  <svg data-name="Layer 1" viewBox="0 0 394.1 345.82">
     <defs>
       <linearGradient
         id="a"

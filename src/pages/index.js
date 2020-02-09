@@ -8,7 +8,7 @@ import SplitSection from '../components/SplitSection';
 import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
-import SvgCharts from '../svg/SvgCharts';
+import SvgDoc from '../svg/SvgDoc';
 
 export default () => (
   <Layout>
@@ -77,7 +77,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<SvgDoc />}
     />
     <SplitSection
       reverseOrder
@@ -92,7 +92,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<SvgDoc />}
     />
     <SplitSection
       primarySlot={
@@ -106,7 +106,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<SvgDoc />}
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
